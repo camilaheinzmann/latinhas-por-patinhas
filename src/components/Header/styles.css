@@ -1,0 +1,35 @@
+.header-container { 
+    width: 100vw;
+    height: 100vh;
+    background-color: #a1e3bc;
+}
+
+.banner-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.logo-lpp,
+.banner-lpp {
+    width: 80vw;
+}
+
+@media(min-width: 780px){
+    .banner-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .logo-lpp {
+        width: 30vw;
+        margin-right: 35px;
+    }
+
+    .banner-lpp {
+        width: 35vw;
+        margin-left: 35px;
+    }
+}
