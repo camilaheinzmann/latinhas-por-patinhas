@@ -1,0 +1,18 @@
+.about-container{
+    width: 70vw;
+    height: 530px;
+
+}
+
+.about-container > h1   {
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 50px;
+    color: #A91C82;
+}
+
+.about-container > p {
+    padding-top: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
