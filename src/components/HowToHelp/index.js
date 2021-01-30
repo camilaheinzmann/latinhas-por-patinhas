@@ -44,8 +44,7 @@ function HowToHelp() {
           </div>
         </div>
         <span>
-          Você ajuda os animais abandonados, e ainda colabora com o meio
-          ambiente.
+          Você ajuda os animais abandonados e ainda colabora com o meio ambiente.
         </span>
       </div>
     </div>
