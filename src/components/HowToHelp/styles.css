@@ -1,0 +1,61 @@
+.hth-container {
+  width: 100vw;
+  background-color: #a91c82;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 60px;
+}
+
+.hth-content-container > h1 {
+  font-weight: 400;
+  font-size: 45px;
+}
+
+.hth-content-container {
+  width: 90vw;
+  max-width: 1080px;
+}
+
+.hth-options-container {
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.hth-options-container > div {
+  padding: 15px 0;
+}
+
+.option > p {
+  padding-top: 8px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: #a1e3bc;
+}
+
+.hth-content-container > span {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+@media (min-width: 780px) {
+  .option > p {
+    font-size: 20px;
+  }
+
+  .hth-options-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .option {
+    width: 45%;
+  }
+}

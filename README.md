@@ -12,4 +12,3 @@
 <p>Confira <a href="https://latinhasporpatinhas.netlify.app/">aqui</a>.</p>
 
 <span>Projeto <b>em desenvolvimento</b>.</span>
-  
