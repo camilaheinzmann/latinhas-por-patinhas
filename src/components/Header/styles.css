@@ -26,7 +26,7 @@
   .banner-container {
     width: 80vw;
     max-width: 1080px;
-    height: 100vh;
+    min-height: calc(100vh - 0.01rem);
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 0;
