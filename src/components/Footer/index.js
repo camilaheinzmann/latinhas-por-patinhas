@@ -20,14 +20,17 @@ function Footer() {
                 alt="icone de e-mail"
               ></img>
             </a>
-            <a href="https://github.com/camilaheinzmann">
+            <a href="https://github.com/camilaheinzmann" target="_blank">
               <img
                 className="icon"
                 src="../img/github.svg"
                 alt="icone do github"
               ></img>
             </a>
-            <a href="https://www.linkedin.com/in/camilaheinzmann/">
+            <a
+              href="https://www.linkedin.com/in/camilaheinzmann/"
+              target="_blank"
+            >
               <img
                 className="icon"
                 src="../img/linkedin.svg"
