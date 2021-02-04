@@ -3,6 +3,7 @@ import React from "react";
 import Header from "../Header";
 import About from "../About";
 import HowToHelp from "../HowToHelp";
+import Footer from "../Footer";
 import "./styles.css";
 
 function Layout() {
@@ -11,7 +12,7 @@ function Layout() {
       <Header />
       <About />
       <HowToHelp />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
