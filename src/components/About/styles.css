@@ -1,6 +1,8 @@
 .about-container {
   width: 90vw;
   max-width: 1080px;
+  display: flex;
+  flex-direction: column;
   padding: 40px 0 60px;
 }
 
@@ -21,6 +23,11 @@
 }
 
 @media (min-width: 780px) {
+  .about-container {
+    min-height: calc(100vh - 0.01rem);
+    justify-content: center;
+  }
+
   .about-content-container {
     display: flex;
     overflow: hidden;

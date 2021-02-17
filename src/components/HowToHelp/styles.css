@@ -46,6 +46,11 @@
 }
 
 @media (min-width: 780px) {
+  .hth-container {
+    min-height: calc(100vh - 0.01rem);
+    align-items: center;
+  }
+
   .option > p {
     font-size: 20px;
   }
